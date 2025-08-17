@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\BuildingBlocks\CoffeeShop.Model.Dto.Shared\CoffeeShop.Model.Dto.Shared.csproj" />
+    <ProjectReference Include="..\..\..\BuildingBlocks\CoffeeShop.Presentation.Shared\CoffeeShop.Presentation.Shared.csproj" />
+    <ProjectReference Include="..\..\..\BuildingBlocks\CoffeeShop.Shared\CoffeeShop.Shared.csproj" />
+    <ProjectReference Include="..\CoffeeShop.Infrastructure.Identity\CoffeeShop.Infrastructure.Identity.csproj" />
+    <ProjectReference Include="..\CoffeeShop.Model.Dto.Identity\CoffeeShop.Model.Dto.Identity.csproj" />
+  </ItemGroup>
+
+</Project>

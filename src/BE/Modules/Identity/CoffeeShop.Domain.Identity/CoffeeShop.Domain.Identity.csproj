@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="8.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\BuildingBlocks\CoffeeShop.Domain.Shared\CoffeeShop.Domain.Shared.csproj" />
+    <ProjectReference Include="..\..\..\BuildingBlocks\CoffeeShop.Model.Dto.Shared\CoffeeShop.Model.Dto.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

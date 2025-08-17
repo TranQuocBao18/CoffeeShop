@@ -1,0 +1,1623 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\CoffeeShop\\src\\BE\\Modules\\Identity\\CoffeeShop.FunctionTest.Identity\\CoffeeShop.FunctionTest.Identity.csproj": {}
+  },
+  "projects": {
+    "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Domain.Shared\\CoffeeShop.Domain.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Domain.Shared\\CoffeeShop.Domain.Shared.csproj",
+        "projectName": "CoffeeShop.Domain.Shared",
+        "projectPath": "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Domain.Shared\\CoffeeShop.Domain.Shared.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Domain.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.EF\\CoffeeShop.EF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.EF\\CoffeeShop.EF.csproj",
+        "projectName": "CoffeeShop.EF",
+        "projectPath": "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.EF\\CoffeeShop.EF.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.EF\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Shared\\CoffeeShop.Shared.csproj": {
+                "projectPath": "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Shared\\CoffeeShop.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "EFCore.NamingConventions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Infrastructure.Shared\\CoffeeShop.Infrastructure.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Infrastructure.Shared\\CoffeeShop.Infrastructure.Shared.csproj",
+        "projectName": "CoffeeShop.Infrastructure.Shared",
+        "projectPath": "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Infrastructure.Shared\\CoffeeShop.Infrastructure.Shared.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Infrastructure.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Domain.Shared\\CoffeeShop.Domain.Shared.csproj": {
+                "projectPath": "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Domain.Shared\\CoffeeShop.Domain.Shared.csproj"
+              },
+              "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Model.Dto.Shared\\CoffeeShop.Model.Dto.Shared.csproj": {
+                "projectPath": "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Model.Dto.Shared\\CoffeeShop.Model.Dto.Shared.csproj"
+              },
+              "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Utilities\\CoffeeShop.Utilities.csproj": {
+                "projectPath": "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Utilities\\CoffeeShop.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.7.1.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.AspNetCore.Mvc.RazorPages": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[4.7.1, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Model.Dto.Shared\\CoffeeShop.Model.Dto.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Model.Dto.Shared\\CoffeeShop.Model.Dto.Shared.csproj",
+        "projectName": "CoffeeShop.Model.Dto.Shared",
+        "projectPath": "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Model.Dto.Shared\\CoffeeShop.Model.Dto.Shared.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Model.Dto.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Presentation.Shared\\CoffeeShop.Presentation.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Presentation.Shared\\CoffeeShop.Presentation.Shared.csproj",
+        "projectName": "CoffeeShop.Presentation.Shared",
+        "projectPath": "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Presentation.Shared\\CoffeeShop.Presentation.Shared.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Presentation.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Infrastructure.Shared\\CoffeeShop.Infrastructure.Shared.csproj": {
+                "projectPath": "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Infrastructure.Shared\\CoffeeShop.Infrastructure.Shared.csproj"
+              },
+              "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Shared\\CoffeeShop.Shared.csproj": {
+                "projectPath": "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Shared\\CoffeeShop.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "JWT": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "Microsoft.AspNet.WebApi.Cors": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "Microsoft.AspNetCore.NodeServices": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.AspNetCore.Session": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.SpaProxy": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.AspNetCore.SpaServices.Extensions": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.21.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "OpenTelemetry.Exporter.OpenTelemetryProtocol": {
+              "target": "Package",
+              "version": "[1.8.1, )"
+            },
+            "OpenTelemetry.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[1.8.1, )"
+            },
+            "OpenTelemetry.Instrumentation.AspNetCore": {
+              "target": "Package",
+              "version": "[1.8.1, )"
+            },
+            "OpenTelemetry.Instrumentation.Http": {
+              "target": "Package",
+              "version": "[1.8.1, )"
+            },
+            "OpenTelemetry.Instrumentation.Runtime": {
+              "target": "Package",
+              "version": "[1.8.1, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Serilog.Enrichers.Environment": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Serilog.Enrichers.Process": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Serilog.Enrichers.Thread": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Serilog.Sinks.MSSqlServer": {
+              "target": "Package",
+              "version": "[6.6.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "System.Linq.Dynamic.Core": {
+              "target": "Package",
+              "version": "[1.4.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Shared\\CoffeeShop.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Shared\\CoffeeShop.Shared.csproj",
+        "projectName": "CoffeeShop.Shared",
+        "projectPath": "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Shared\\CoffeeShop.Shared.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Utilities\\CoffeeShop.Utilities.csproj": {
+                "projectPath": "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Utilities\\CoffeeShop.Utilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "OpenTracing.Contrib.Grpc": {
+              "target": "Package",
+              "version": "[0.5.2, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[8.4.1, )"
+            },
+            "Polly.Extensions.Http": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Serilog.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Serilog.Sinks.Seq": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.UnitOfWork\\CoffeeShop.UnitOfWork.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.UnitOfWork\\CoffeeShop.UnitOfWork.csproj",
+        "projectName": "CoffeeShop.UnitOfWork",
+        "projectPath": "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.UnitOfWork\\CoffeeShop.UnitOfWork.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.UnitOfWork\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.EF\\CoffeeShop.EF.csproj": {
+                "projectPath": "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.EF\\CoffeeShop.EF.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Utilities\\CoffeeShop.Utilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Utilities\\CoffeeShop.Utilities.csproj",
+        "projectName": "CoffeeShop.Utilities",
+        "projectPath": "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Utilities\\CoffeeShop.Utilities.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Utilities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.2, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.9.2, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.IdentityModel.Logging": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Microsoft.Net.Http.Headers": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Scrutor": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "TimeZoneConverter": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CoffeeShop\\src\\BE\\Host\\CoffeeShop.Host.BackOffice\\CoffeeShop.Host.BackOffice.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CoffeeShop\\src\\BE\\Host\\CoffeeShop.Host.BackOffice\\CoffeeShop.Host.BackOffice.csproj",
+        "projectName": "CoffeeShop.Host.BackOffice",
+        "projectPath": "D:\\CoffeeShop\\src\\BE\\Host\\CoffeeShop.Host.BackOffice\\CoffeeShop.Host.BackOffice.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\CoffeeShop\\src\\BE\\Host\\CoffeeShop.Host.BackOffice\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.19, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CoffeeShop\\src\\BE\\Modules\\Application\\CoffeeShop.Infrastructure.Application\\CoffeeShop.Infrastructure.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CoffeeShop\\src\\BE\\Modules\\Application\\CoffeeShop.Infrastructure.Application\\CoffeeShop.Infrastructure.Application.csproj",
+        "projectName": "CoffeeShop.Infrastructure.Application",
+        "projectPath": "D:\\CoffeeShop\\src\\BE\\Modules\\Application\\CoffeeShop.Infrastructure.Application\\CoffeeShop.Infrastructure.Application.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\CoffeeShop\\src\\BE\\Modules\\Application\\CoffeeShop.Infrastructure.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CoffeeShop\\src\\BE\\Modules\\Identity\\CoffeeShop.Domain.Identity\\CoffeeShop.Domain.Identity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CoffeeShop\\src\\BE\\Modules\\Identity\\CoffeeShop.Domain.Identity\\CoffeeShop.Domain.Identity.csproj",
+        "projectName": "CoffeeShop.Domain.Identity",
+        "projectPath": "D:\\CoffeeShop\\src\\BE\\Modules\\Identity\\CoffeeShop.Domain.Identity\\CoffeeShop.Domain.Identity.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\CoffeeShop\\src\\BE\\Modules\\Identity\\CoffeeShop.Domain.Identity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Domain.Shared\\CoffeeShop.Domain.Shared.csproj": {
+                "projectPath": "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Domain.Shared\\CoffeeShop.Domain.Shared.csproj"
+              },
+              "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Model.Dto.Shared\\CoffeeShop.Model.Dto.Shared.csproj": {
+                "projectPath": "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Model.Dto.Shared\\CoffeeShop.Model.Dto.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CoffeeShop\\src\\BE\\Modules\\Identity\\CoffeeShop.FunctionTest.Identity\\CoffeeShop.FunctionTest.Identity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CoffeeShop\\src\\BE\\Modules\\Identity\\CoffeeShop.FunctionTest.Identity\\CoffeeShop.FunctionTest.Identity.csproj",
+        "projectName": "CoffeeShop.FunctionTest.Identity",
+        "projectPath": "D:\\CoffeeShop\\src\\BE\\Modules\\Identity\\CoffeeShop.FunctionTest.Identity\\CoffeeShop.FunctionTest.Identity.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\CoffeeShop\\src\\BE\\Modules\\Identity\\CoffeeShop.FunctionTest.Identity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\CoffeeShop\\src\\BE\\Host\\CoffeeShop.Host.BackOffice\\CoffeeShop.Host.BackOffice.csproj": {
+                "projectPath": "D:\\CoffeeShop\\src\\BE\\Host\\CoffeeShop.Host.BackOffice\\CoffeeShop.Host.BackOffice.csproj"
+              },
+              "D:\\CoffeeShop\\src\\BE\\Modules\\Identity\\CoffeeShop.Infrastructure.Identity\\CoffeeShop.Infrastructure.Identity.csproj": {
+                "projectPath": "D:\\CoffeeShop\\src\\BE\\Modules\\Identity\\CoffeeShop.Infrastructure.Identity\\CoffeeShop.Infrastructure.Identity.csproj"
+              },
+              "D:\\CoffeeShop\\src\\BE\\Modules\\Identity\\CoffeeShop.Presentation.Identity\\CoffeeShop.Presentation.Identity.csproj": {
+                "projectPath": "D:\\CoffeeShop\\src\\BE\\Modules\\Identity\\CoffeeShop.Presentation.Identity\\CoffeeShop.Presentation.Identity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[8.2.0, )"
+            },
+            "Grpc.Core.Testing": {
+              "target": "Package",
+              "version": "[2.46.6, )"
+            },
+            "Grpc.Net.ClientFactory": {
+              "target": "Package",
+              "version": "[2.71.0, )"
+            },
+            "MassTransit": {
+              "target": "Package",
+              "version": "[8.4.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
+            "Microsoft.AspNetCore.TestHost": {
+              "target": "Package",
+              "version": "[8.0.16, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.14.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.72, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "ReportGenerator": {
+              "target": "Package",
+              "version": "[5.4.7, )"
+            },
+            "WebMotions.Fake.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "XunitXml.TestLogger": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "coverlet.msbuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CoffeeShop\\src\\BE\\Modules\\Identity\\CoffeeShop.Infrastructure.Identity\\CoffeeShop.Infrastructure.Identity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CoffeeShop\\src\\BE\\Modules\\Identity\\CoffeeShop.Infrastructure.Identity\\CoffeeShop.Infrastructure.Identity.csproj",
+        "projectName": "CoffeeShop.Infrastructure.Identity",
+        "projectPath": "D:\\CoffeeShop\\src\\BE\\Modules\\Identity\\CoffeeShop.Infrastructure.Identity\\CoffeeShop.Infrastructure.Identity.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\CoffeeShop\\src\\BE\\Modules\\Identity\\CoffeeShop.Infrastructure.Identity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Infrastructure.Shared\\CoffeeShop.Infrastructure.Shared.csproj": {
+                "projectPath": "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Infrastructure.Shared\\CoffeeShop.Infrastructure.Shared.csproj"
+              },
+              "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.UnitOfWork\\CoffeeShop.UnitOfWork.csproj": {
+                "projectPath": "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.UnitOfWork\\CoffeeShop.UnitOfWork.csproj"
+              },
+              "D:\\CoffeeShop\\src\\BE\\Modules\\Identity\\CoffeeShop.Domain.Identity\\CoffeeShop.Domain.Identity.csproj": {
+                "projectPath": "D:\\CoffeeShop\\src\\BE\\Modules\\Identity\\CoffeeShop.Domain.Identity\\CoffeeShop.Domain.Identity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.5.1, )"
+            },
+            "Microsoft.AspNet.Identity.EntityFramework": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.Extensions.Options.ConfigurationExtensions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[4.7.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "microsoft.extensions.dependencyinjection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CoffeeShop\\src\\BE\\Modules\\Identity\\CoffeeShop.Model.Dto.Identity\\CoffeeShop.Model.Dto.Identity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CoffeeShop\\src\\BE\\Modules\\Identity\\CoffeeShop.Model.Dto.Identity\\CoffeeShop.Model.Dto.Identity.csproj",
+        "projectName": "CoffeeShop.Model.Dto.Identity",
+        "projectPath": "D:\\CoffeeShop\\src\\BE\\Modules\\Identity\\CoffeeShop.Model.Dto.Identity\\CoffeeShop.Model.Dto.Identity.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\CoffeeShop\\src\\BE\\Modules\\Identity\\CoffeeShop.Model.Dto.Identity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\CoffeeShop\\src\\BE\\Modules\\Identity\\CoffeeShop.Domain.Identity\\CoffeeShop.Domain.Identity.csproj": {
+                "projectPath": "D:\\CoffeeShop\\src\\BE\\Modules\\Identity\\CoffeeShop.Domain.Identity\\CoffeeShop.Domain.Identity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CoffeeShop\\src\\BE\\Modules\\Identity\\CoffeeShop.Presentation.Identity\\CoffeeShop.Presentation.Identity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CoffeeShop\\src\\BE\\Modules\\Identity\\CoffeeShop.Presentation.Identity\\CoffeeShop.Presentation.Identity.csproj",
+        "projectName": "CoffeeShop.Presentation.Identity",
+        "projectPath": "D:\\CoffeeShop\\src\\BE\\Modules\\Identity\\CoffeeShop.Presentation.Identity\\CoffeeShop.Presentation.Identity.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\CoffeeShop\\src\\BE\\Modules\\Identity\\CoffeeShop.Presentation.Identity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Domain.Shared\\CoffeeShop.Domain.Shared.csproj": {
+                "projectPath": "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Domain.Shared\\CoffeeShop.Domain.Shared.csproj"
+              },
+              "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Infrastructure.Shared\\CoffeeShop.Infrastructure.Shared.csproj": {
+                "projectPath": "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Infrastructure.Shared\\CoffeeShop.Infrastructure.Shared.csproj"
+              },
+              "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Model.Dto.Shared\\CoffeeShop.Model.Dto.Shared.csproj": {
+                "projectPath": "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Model.Dto.Shared\\CoffeeShop.Model.Dto.Shared.csproj"
+              },
+              "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Presentation.Shared\\CoffeeShop.Presentation.Shared.csproj": {
+                "projectPath": "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Presentation.Shared\\CoffeeShop.Presentation.Shared.csproj"
+              },
+              "D:\\CoffeeShop\\src\\BE\\Modules\\Application\\CoffeeShop.Infrastructure.Application\\CoffeeShop.Infrastructure.Application.csproj": {
+                "projectPath": "D:\\CoffeeShop\\src\\BE\\Modules\\Application\\CoffeeShop.Infrastructure.Application\\CoffeeShop.Infrastructure.Application.csproj"
+              },
+              "D:\\CoffeeShop\\src\\BE\\Modules\\Identity\\CoffeeShop.Model.Dto.Identity\\CoffeeShop.Model.Dto.Identity.csproj": {
+                "projectPath": "D:\\CoffeeShop\\src\\BE\\Modules\\Identity\\CoffeeShop.Model.Dto.Identity\\CoffeeShop.Model.Dto.Identity.csproj"
+              },
+              "D:\\CoffeeShop\\src\\BE\\Modules\\Identity\\CoffeeShop.Service.Identity\\CoffeeShop.Service.Identity.csproj": {
+                "projectPath": "D:\\CoffeeShop\\src\\BE\\Modules\\Identity\\CoffeeShop.Service.Identity\\CoffeeShop.Service.Identity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "JWT": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "Microsoft.AspNet.Identity.Core": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "Microsoft.AspNetCore.NodeServices": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.AspNetCore.Session": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.SpaProxy": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.AspNetCore.SpaServices.Extensions": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.21.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "OpenTelemetry.Exporter.OpenTelemetryProtocol": {
+              "target": "Package",
+              "version": "[1.8.1, )"
+            },
+            "OpenTelemetry.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[1.8.1, )"
+            },
+            "OpenTelemetry.Instrumentation.AspNetCore": {
+              "target": "Package",
+              "version": "[1.8.1, )"
+            },
+            "OpenTelemetry.Instrumentation.Http": {
+              "target": "Package",
+              "version": "[1.8.1, )"
+            },
+            "OpenTelemetry.Instrumentation.Runtime": {
+              "target": "Package",
+              "version": "[1.8.1, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Serilog.Enrichers.Environment": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Serilog.Enrichers.Process": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Serilog.Enrichers.Thread": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Serilog.Sinks.MSSqlServer": {
+              "target": "Package",
+              "version": "[6.6.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\CoffeeShop\\src\\BE\\Modules\\Identity\\CoffeeShop.Service.Identity\\CoffeeShop.Service.Identity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\CoffeeShop\\src\\BE\\Modules\\Identity\\CoffeeShop.Service.Identity\\CoffeeShop.Service.Identity.csproj",
+        "projectName": "CoffeeShop.Service.Identity",
+        "projectPath": "D:\\CoffeeShop\\src\\BE\\Modules\\Identity\\CoffeeShop.Service.Identity\\CoffeeShop.Service.Identity.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\CoffeeShop\\src\\BE\\Modules\\Identity\\CoffeeShop.Service.Identity\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Model.Dto.Shared\\CoffeeShop.Model.Dto.Shared.csproj": {
+                "projectPath": "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Model.Dto.Shared\\CoffeeShop.Model.Dto.Shared.csproj"
+              },
+              "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Presentation.Shared\\CoffeeShop.Presentation.Shared.csproj": {
+                "projectPath": "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Presentation.Shared\\CoffeeShop.Presentation.Shared.csproj"
+              },
+              "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Shared\\CoffeeShop.Shared.csproj": {
+                "projectPath": "D:\\CoffeeShop\\src\\BE\\BuildingBlocks\\CoffeeShop.Shared\\CoffeeShop.Shared.csproj"
+              },
+              "D:\\CoffeeShop\\src\\BE\\Modules\\Identity\\CoffeeShop.Infrastructure.Identity\\CoffeeShop.Infrastructure.Identity.csproj": {
+                "projectPath": "D:\\CoffeeShop\\src\\BE\\Modules\\Identity\\CoffeeShop.Infrastructure.Identity\\CoffeeShop.Infrastructure.Identity.csproj"
+              },
+              "D:\\CoffeeShop\\src\\BE\\Modules\\Identity\\CoffeeShop.Model.Dto.Identity\\CoffeeShop.Model.Dto.Identity.csproj": {
+                "projectPath": "D:\\CoffeeShop\\src\\BE\\Modules\\Identity\\CoffeeShop.Model.Dto.Identity\\CoffeeShop.Model.Dto.Identity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
