@@ -25,10 +25,15 @@ dotnet run --project "./Host/CoffeeShop.Host.BackOffice/CoffeeShop.Host.BackOffi
 
 dotnet run --project BE/Migrations/CoffeeShop.Migration/CoffeeShop.Migration.csproj identity
 dotnet run --project BE/Migrations/CoffeeShop.Migration/CoffeeShop.Migration.csproj application
+```
+
+```
 
 **Launch APIs**
 
 - Api documents: http://localhost:9000/swagger/index.html
+
+```
 
 ```
 Authentication:
@@ -38,6 +43,7 @@ Authentication:
   "password": "P@ssw0rd",
   "rememberMe": true
 }
+```
 ```
 
 **References**:
